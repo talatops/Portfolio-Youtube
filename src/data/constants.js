@@ -334,6 +334,25 @@ export const projects = [
     github: "https://github.com/CYBERCODERoss/REDDIT-CLONE",
     webapp: "http://localhost:8080/",
   },
+    {
+    id: 1,
+    title: "Personal Blog Engine",
+    date: "Aug 2024 - Present",
+    description:
+      "A dynamic and feature-rich blog application built with Node.js, Express.js, and MongoDB Atlas.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE27DbPcoPyZVdKcEK5udhrsUnfpfGEh4NeA&s",
+    tags: [
+      "Node Js",
+      "MongoDb",
+      "Express Js",
+      "html",
+      "JWT Cookie Parser",
+    ],
+    category: "BackEnd",
+    github: "https://github.com/CYBERCODERoss/NodeJs-Blog.git",
+    webapp: "http://localhost:5000/",
+  },
   // {
   //   id: 1,
   //   title: "Vexa",
