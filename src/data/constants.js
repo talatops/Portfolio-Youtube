@@ -543,10 +543,52 @@ export const education = [
 export const projects = [
   {
     id: 9,
+    title: "AutoScalePro",
+    date: "Mar 2024 - Apr 2024",
+    description:
+      "- Developed an automated resource scaling system, AutoScalePro, to dynamically adjust compute resources based on load, optimizing cost and performance.\n- Implemented infrastructure as code with Terraform, enabling seamless replication and adjustment of environments across multiple regions.\n- Developed AutoScalePro, using AWS Auto Scaling, CloudWatch, and AWS Config for dynamic resource scaling and compliance tracking, optimizing cost and performance.\n- Provided a comprehensive dashboard for real-time monitoring and alerts, allowing stakeholders to track performance metrics and cost savings.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+    tags: [
+      "AWS",
+      "Lambda",
+      "EC2 Auto Scaling",
+      "CloudWatch",
+      "Python",
+      "Terraform",
+    ],
+    category: "DevOps",
+    github: "https://github.com/talatops/AutoScalePro",
+    webapp: "http://localhost:8080/",
+  },
+  {
+    id: 10,
+    title: "StreamFlix",
+    date: "Jan 2024 - Feb 2024",
+    description:
+      "- Developed and deployed a Netflix clone, 'StreamFlix', using React for the front-end and Node.js for the back-end, hosted on AWS with Docker and Kubernetes.\n- Using Terraform for infrastructure automation, enabling scalable deployments and easy environment replication, fostering improved DevOps practices.\n- CI/CD workflows implemented with GitHub Actions, ensuring fast and reliable deployments and rollback capabilities for application updates.",
+    image:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAgVBMVEUUFBS5CQsAFBS8CQvBCAqJDg++CAoLFBSeDA1LEhIQFBSODQ6bDA22CQvCCAqpCwyTDQ5wDxAsExOuCgwGFBR/Dg9oEBFaERGrCwwzExOCDg9GEhJTERJcERF1DxCNDQ4gFBQ9EhMjExQ6ExNtEBAaFBQiExRjERFCEhMvExNVERIiUP7nAAAHHUlEQVR4nO2c62KiOhSFIQkJRgUsiHe81I5O3/8BT27c1E4909aZdNb3QyEiyDLJ3sneIQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAt0MSjbQ7Zpt0NltUUXFZRn51XP8y7ZkF6X5Mupf3D/m8jaJoeDA3QI5qO9oaVcqox5IExWbbL4smJCDVRZk6znx1WHQvYw+r1JnFwJyldH+S+Y67vIeIQUIpZRNzNyTjesfIlzHaZayUmvaLKI9VYcx7ZaEq2urjkl71M4fp4wMZ2LOYj4tXfXU+Jzd+mReIAQ/DkKZOPqp3jHxDvdli5OsXhXSkCkfXx0W6iF3Ip8poTJqL8E1RF4f8VNz4ZV5g5QvZQjefh8gnBix02/InM1/ytvLV8tFpWzG+WL6A5OYPe5IBWdLm2n7i5Avz2/IxR6IKyTLRm1YuUxg38jXH8Tvkq5xoktBaSF+p5WMrcUu+xh/RvZN1OYxeY7Opv2J20+5x78knD8zWU1JyV4e9pZaPKo/jlnxXFaOWr7vrLE9d9I587hRsTVL7Lr7q5r6eWj7Tf9+Q7+oLnyBfMTO1LluwptvwlUY+/lo8Sr6A2ApvPZjJt5CPZuRx8hmLG5oXLv01HN3Gywv5KPmkbbZGwqHPla8r34m8aXk7nfsb8rX2+Q75Ams0jMXfe2w4uvKpm7uWr5oqoqhjHG/JF4bz3FCakdgd8pV1l5F6Xfk68oXscC2fnQdgx/Ymb8vnKrAxA3fI5xxmr4e7hnrQpm+lemvQxu+V73infO3p/a589YyL6cHmj5NPnDtDbY9x8h1N6336bflcI7+38epZP3Nivw1HLR8vt/r2qu3VlAHXJO/JN84Mo82dpqOevaHLb1H7+HGt3/LoUr4XIjQdz/ZTHBc37uicx1OcfBNjCqmZifvyKYOO48LW38HyKvm2TV/39aMON2Ma2qGizzTyrdnj5LPz9dYqvfg85G3lq3ujh0wZtN5O16h7SCtfRB8lXx0hMt2t36O2Rr62Qd2QT7azSvfLpwyxstn2m/3ZZmvgIxOlZM8+u36NfAEZ35LPZVTsftb63SsfPx5Ps8F5sZNanl6sQ9rY6LMNdXjt+nXkq1tvV74oi9M8pDyhF37yu/KFxuHW0Tc9MOtH2lxk3sro9bC3lU+s2LV8Ju8ivNLrHvkaS3Qln6nm/FTYa+gogbe08jWt960wueXD8hUb7k5o/7BvEKi08tkIxHvyxS4TqN7Vw+JetIxs+a/kszPNXGdbWe/ZZ9evI584sxvy2Vwq3uoVpfFo1AwWis1EUXbbH6nyPB+Pdbdnur9lTz53FRbIuhf0OdbWka8eSnGznTHd74d5Gg+XVbkZNO5FL7vR5UL2ey9nruWP5/PgVFYzk4zgkjrqaJ6JEMkXI6W/+Wl9+aa6ujAjn3g9Dc6HNvfiN5wz5fIJUbg4k3p7Ouv/QMSpqpiJnehz+QZnb10/LR+lrDKV4TmabFYHWxdE0Zun+jhaTP2u/43F2l6keE10dmXkbfUTgyRMs+XK3JnU1ewR/bisq1uxngxTyrytfcHux0Ug97GYrK3D7k9d/uP8BV7DX/ATAAAAAAAAAAAAAIB3yG5Qw+OnN/wRJFlMomg6s0EiEnKPF+E+nuIQ2/XO4ckElajPa5gfjnimnI+qSTTmiYlvQ77/gQxCmj+ZiGXEk5XoyCf7oaXernxI2Onvh2z5WLhYXMz0EwycfIIE+2dnRnTAiRz2u/aJRIv94c/FoP4eZMD5qU5LXqXpi3TykX3MkoRvddyRlOPpIk0SFu+0fpJMwyRJ5itvQ7ifRrHhvF1OpSublY+sGadxyvhYKUYmLOY8Tjm1D+VQpibOcpZ4vvLgEyBTfpGBbOSTPzjf6ihtrj8mEyWe8g3PnJX6oSVsrDvLinmd/fgpkCHPbshHlko21VDFjrOVUPJRvaeMS0akVEU2G415vuT047wlX842dhVWxpZENd6RzX5kKSleWW5ziyrmbwLLJ/FG41UvNmHcKKdejMbFTMlHKj6eG3Kvk0c/heLEm8xwPfR1pkNwtrPylTfkC8cOz5ddfRwZsMZxkYsoco4LCZlNmlR2YnghX6m8w87zJP9tVOc3dg4wGapezTXemNvF4KoTPPblE3vGhXOmMfKQO0rnL84UJPpxQ1o+ZST4nohCtVQqZE++gMyVT1Ooz5bbFfQjA075tjxVc24sqXObR5xPB7OMJSft93XlE6uEjV4HszgJ/3W/RUMWqZ2wMgsKAsISZXQlyRI1aGNmVSSpEue4JDrVm6yp+ihJ8ieMegM9VltNsywqA7ss7XX2ot/IfjocVjuTGL2YmQxf+TQzBqUojtEwmqHrc4juE5ZF0Sl0U1cu+755v16xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvob/ACMEYf6iX138AAAAAElFTkSuQmCC",
+    tags: [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "React",
+      "Node.js",
+      "TMDB",
+      "GitHub Actions",
+      "Kubernetes",
+    ],
+    category: "DevOps",
+    github: "https://github.com/talatops/StreamFlix",
+    webapp: "http://localhost:8080/",
+  },
+  {
+    id: 11,
     title: "Netflix-Clone",
     date: "Jan 2024 - Feb 2024",
     description:
-      "Netflix-Clone is a web based application that is a clone of the Netflix website. It is made with React Js, Redux, and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the movies and can play a movie. It has a search bar where users can search for a particular movie.",
+      "- Netflix-Clone is a web based application that is a clone of the Netflix website.\n- It is made with React Js, Redux, and Firebase.\n- It has a login page where users can log in with their Google account.\n- It has a sidebar where users can see all the movies and can play a movie.\n- It has a search bar where users can search for a particular movie.",
     image:
       "data:image/png;base64,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",
     tags: [
@@ -554,197 +596,59 @@ export const projects = [
       "Azure",
       "Jenkins",
       "ArgoCD",
-      "Promehteus",
+      "Prometheus",
       "Grafana",
-      "SonarQube"
+      "SonarQube",
     ],
-    category: "DevSecOps",
+    category: "DevOps",
     github: "https://github.com/talatops/NETFLIXclone",
     webapp: "http://localhost:8080/",
   },
-   {
+  {
     id: 0,
     title: "REDDIT-CLONE",
     date: "May 2024 - June 2024",
     description:
-      "Developed a Reddit Clone web application and then deployed it on docker as well as EKS Cluster. ",
+      "- Developed a Reddit Clone web application and then deployed it on Docker as well as EKS Cluster.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlF0urwY_BW5QCKIu4lGodwg4WurSVOZyP3w&s",
     tags: [
-      "Jenkins", 
-      "AWS", 
-      "Docker", 
-      "Kubernetes", 
+      "Jenkins",
+      "AWS",
+      "Docker",
+      "Kubernetes",
       "EKS",
-      "typescript",
+      "TypeScript",
     ],
-    category: "DevSecOps",
+    category: "DevOps",
     github: "https://github.com/talatops/REDDIT-CLONE",
     webapp: "http://localhost:8080/",
   },
-    {
+  {
     id: 1,
     title: "Personal Blog Engine",
     date: "Aug 2024 - Present",
     description:
-      "A dynamic and feature-rich blog application built with Node.js, Express.js, and MongoDB Atlas.",
+      "- A dynamic and feature-rich blog application built with Node.js, Express.js, and MongoDB Atlas.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE27DbPcoPyZVdKcEK5udhrsUnfpfGEh4NeA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn&DGcRE27DbPcoPyZVdKcEK5udhrsUnfpfGEh4NeA&s",
     tags: [
       "Node Js",
-      "MongoDb",
+      "MongoDB",
       "Express Js",
-      "html",
+      "HTML",
       "JWT Cookie Parser",
     ],
     category: "BackEnd",
     github: "https://github.com/talatops/NodeJs-Blog.git",
     webapp: "http://localhost:5000/",
   },
-  // {
-  //   id: 1,
-  //   title: "Vexa",
-  //   date: "Oct 2022 - Present",
-  //   description:
-  //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //   tags: [
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Project-Management-App",
-  //   webapp: "https://vexa-app.netlify.app/",
-  // },
-  // {
-  //   id: 2,
-  //   title: "Brain Tumor Detection",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-  //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   title: "Buckoid",
-  //   date: "Dec 2021 - Apr 2022",
-  //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-  //   image:
-  //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  // },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Whatsapp Clone",
-  //   date: "Jul 2021",
-  //   description:
-  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-  //   webapp: "https://whatsapp-clone-rishav.web.app",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Breaking Bad",
-  //   date: "Jun 2021",
-  //   description:
-  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-  //   image:
-  //     "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-  //   tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
 ];
 
 export const TimeLineData = [
-  // { year: 2017, text: "Started my journey" },
-  // { year: 2018, text: "Worked as a freelance developer" },
-  // { year: 2019, text: "Founded JavaScript Mastery" },
-  // { year: 2020, text: "Shared my projects with the world" },
-  // { year: 2021, text: "Started my own platform" },
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
 ];
