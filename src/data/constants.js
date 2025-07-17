@@ -327,7 +327,6 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
       },
       {
-        nameಸ
         name: "AWS EC2",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
