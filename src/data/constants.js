@@ -445,14 +445,22 @@ export const experiences = [
     role: "Cloud Engineer",
     company: "Antematter",
     date: "Jan 2025 - Present",
-    desc: "• Led the management of all AWS accounts for the organization, implementing strategic cost savings measures that reduced the monthly AWS bill from $400 to $130, achieving a cost reduction of 67.5%.\n\n\
-• Independently designed and optimized AWS infrastructure by leveraging AWS documentation, ensuring scalable and cost-effective solutions for production workloads.\n\n\
-• Implemented elastic load balancers (ALB/NLB) and auto-scale groups to ensure high availability and dynamic resource scaling for production applications.\n\n\
-• Developed efficient monitoring solutions using AWS CloudTrail and budget constraints, ensuring robust monitoring and management of cloud resources and expenses.\n\n\
-• Implemented cyber-security tools to identify security risks in the workflow and codebase using OWASP and Acunetix.\n\n\
-• Facilitated cross-functional teams in cloud strategy sessions to improve operational processes and drive continuous improvement within the organization's DevOps initiatives, resulting in 25% faster deployment cycles.\n\n\
-• Managed the DevOps and deployment aspects of an external project and internal deployments from scratch for an MVP and performed successful migrations to handle users at production scale.\n\n\
-• Led internal project deployment processes using kamal-deploy, streamlining deployment resulting in a 15% increase in deployment efficiency and reduction in rollback events.",
+    desc: `
+• Led the management of all AWS accounts for the organization, implementing strategic cost savings measures that reduced the monthly AWS bill from $400 to $130, achieving a cost reduction of 67.5%.
+
+• Independently designed and optimized AWS infrastructure by leveraging AWS documentation, ensuring scalable and cost-effective solutions for production workloads.
+
+• Implemented elastic load balancers (ALB/NLB) and auto-scale groups to ensure high availability and dynamic resource scaling for production applications.
+
+• Developed efficient monitoring solutions using AWS CloudTrail and budget constraints, ensuring robust monitoring and management of cloud resources and expenses.
+
+• Implemented cyber-security tools to identify security risks in the workflow and codebase using OWASP and Acunetix.
+
+• Facilitated cross-functional teams in cloud strategy sessions to improve operational processes and drive continuous improvement within the organization's DevOps initiatives, resulting in 25% faster deployment cycles.
+
+• Managed the DevOps and deployment aspects of an external project and internal deployments from scratch for an MVP and performed successful migrations to handle users at production scale.
+
+• Led internal project deployment processes using kamal-deploy, streamlining deployment resulting in a 15% increase in deployment efficiency and reduction in rollback events.`,
     skills: [
       "AWS",
       "CloudTrail",
@@ -470,7 +478,18 @@ export const experiences = [
     role: "Associate Cloud Infrastructure Engineer",
     company: "buildonhybrid.com",
     date: "Oct 2024 - Mar 2025",
-    desc: "• Led the design and implementation of a unified monitoring and logging infrastructure for the HYBRID cloud ecosystem using tools such as Prometheus, Grafana, and Loki to enhance system observability.\n\n• Built and maintained custom Grafana dashboards and alerting pipelines, enabling real-time system health monitoring and proactive anomaly detection.\n\n• Utilized Prometheus for collecting metrics and Node Exporter/cAdvisor for resource monitoring, improving performance diagnostics across multiple services and nodes.\n\n• Integrated Loki with Promtail for centralized log aggregation, reducing mean time to recovery (MTTR) and improving root cause analysis during incidents.\n\n• Implemented monitoring using Grafana, Prometheus, Node Exporter, and cAdvisor, and set up alerts with runbooks for developers to address potential issues.\n\n• Added centralized logging using Loki and Grafana, managing logs from 20+ Digital Ocean droplets, and setting triggers for specific keywords to alert developers of any issues.",
+    desc: `
+• Led the design and implementation of a unified monitoring and logging infrastructure for the HYBRID cloud ecosystem using tools such as Prometheus, Grafana, and Loki to enhance system observability.
+
+• Built and maintained custom Grafana dashboards and alerting pipelines, enabling real-time system health monitoring and proactive anomaly detection.
+
+• Utilized Prometheus for collecting metrics and Node Exporter/cAdvisor for resource monitoring, improving performance diagnostics across multiple services and nodes.
+
+• Integrated Loki with Promtail for centralized log aggregation, reducing mean time to recovery (MTTR) and improving root cause analysis during incidents.
+
+• Implemented monitoring using Grafana, Prometheus, Node Exporter, and cAdvisor, and set up alerts with runbooks for developers to address potential issues.
+
+• Added centralized logging using Loki and Grafana, managing logs from 20+ Digital Ocean droplets, and setting triggers for specific keywords to alert developers of any issues.`,
     skills: [
       "Prometheus",
       "Grafana",
