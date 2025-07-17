@@ -19,6 +19,45 @@ export const Bio = {
 
 export const skills = [
   {
+    title: "Languages",
+    skills: [
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Bash scripting",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bash_Logo_Black_and_White.svg/1200px-Bash_Logo_Black_and_White.svg.png",
+      },
+      {
+        name: "C++",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+      },
+      {
+        name: "YAML",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/YAML_logo.svg/1200px-YAML_logo.svg.png",
+      },
+      {
+        name: "NodeJS",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+    ],
+  },
+  {
     title: "Frontend",
     skills: [
       {
@@ -29,7 +68,7 @@ export const skills = [
       {
         name: "Next Js",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOztERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5VrX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
       {
         name: "HTML",
@@ -39,11 +78,6 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
         name: "Bootstrap",
@@ -60,9 +94,19 @@ export const skills = [
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
-        name: "Python",
+        name: "Express",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      },
+      {
+        name: "Django",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg",
+      },
+      {
+        name: "Flask",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
       },
       {
         name: "MySQL",
@@ -70,13 +114,23 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Postgresql",
+        name: "PostgreSQL",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "RESTful API",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/REST_API_Logo.svg/1200px-REST_API_Logo.svg.png",
+      },
+      {
+        name: "GraphQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg",
       },
     ],
   },
@@ -99,9 +153,49 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
+        name: "Kubernetes",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      },
+      {
+        name: "ArgoCD",
+        image:
+          "https://raw.githubusercontent.com/argoproj/argo-cd/master/docs/assets/argo-icon-color.png",
+      },
+      {
         name: "Jenkins",
         image:
           "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      },
+      {
+        name: "Ansible",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg",
+      },
+      {
+        name: "Helm",
+        image:
+          "https://helm.sh/img/helm.svg",
+      },
+      {
+        name: "GitHub Actions",
+        image:
+          "https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg",
+      },
+      {
+        name: "Terraform",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg",
+      },
+      {
+        name: "CloudFormation",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_CloudFormation_logo.svg/1200px-AWS_CloudFormation_logo.svg.png",
+      },
+      {
+        name: "Kamal-deploy",
+        image:
+          "https://raw.githubusercontent.com/basecamp/kamal/main/docs/assets/kamal-logo.png",
       },
       {
         name: "Nginx",
@@ -113,11 +207,6 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
       },
       {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
         name: "Prometheus",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
@@ -125,7 +214,188 @@ export const skills = [
     ],
   },
   {
-    title: "Others",
+    title: "Linux",
+    skills: [
+      {
+        name: "System Administration",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png",
+      },
+      {
+        name: "Ubuntu",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logo.svg/1200px-Ubuntu_logo.svg.png",
+      },
+      {
+        name: "RedHat",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/1200px-Red_Hat_logo.svg.png",
+      },
+      {
+        name: "Amazon Linux",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+    ],
+  },
+  {
+    title: "Windows",
+    skills: [
+      {
+        name: "System Administration",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1200px-Windows_logo_-_2012.svg.png",
+      },
+    ],
+  },
+  {
+    title: "Networking",
+    skills: [
+      {
+        name: "Network Configuration",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Network_architecture_icon.svg/1200px-Network_architecture_icon.svg.png",
+      },
+      {
+        name: "Security",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Computer_security_icon.svg/1200px-Computer_security_icon.svg.png",
+      },
+      {
+        name: "Monitoring & Troubleshooting",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Computer_network_icon.svg/1200px-Computer_network_icon.svg.png",
+      },
+      {
+        name: "Protocols",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Network_architecture_icon.svg/1200px-Network_architecture_icon.svg.png",
+      },
+      {
+        name: "IP Addressing & Subnetting",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Computer_network_icon.svg/1200px-Computer_network_icon.svg.png",
+      },
+      {
+        name: "OSI Model",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/1200px-OSI_Model_v1.svg.png",
+      },
+      {
+        name: "Switches",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Network_switch_icon.svg/1200px-Network_switch_icon.svg.png",
+      },
+      {
+        name: "Routers",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Router_icon.svg/1200px-Router_icon.svg.png",
+      },
+      {
+        name: "Firewalls",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Computer_security_icon.svg/1200px-Computer_security_icon.svg.png",
+      },
+      {
+        name: "Load Balancing",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Computer_network_icon.svg/1200px-Computer_network_icon.svg.png",
+      },
+    ],
+  },
+  {
+    title: "Cloud",
+    skills: [
+      {
+        name: "GCP",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg",
+      },
+      {
+        name: "Digital Ocean",
+        image:
+          "https://www.digitalocean.com/_next/static/media/logo.0d8e398f.svg",
+      },
+      {
+        name: "AWS VPC",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS IAM",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        nameಸ
+        name: "AWS EC2",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS EBS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS ECS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS EKS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS S3",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS RDS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS Lambda",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS API Gateway",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS CloudWatch",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS CodeBuild",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS CodePipeline",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS CodeDeploy",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+      {
+        name: "AWS Secrets Manager",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+    ],
+  },
+  {
+    title: "Version Control",
     skills: [
       {
         name: "Git",
@@ -138,20 +408,44 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Docker",
+        name: "GitLab",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+          "https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg",
       },
-
+      {
+        name: "Replit",
+        image:
+          "https://replit.com/public/images/replit-logo.svg",
+      },
+    ],
+  },
+  {
+    title: "GenAI Tools",
+    skills: [
+      {
+        name: "Cursor",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png",
+      },
       {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
       {
         name: "Postman",
         image:
           "https://cdn.worldvectorlogo.com/logos/postman.svg",
+      },
+      {
+        name: "Gunicorn",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
     ],
   },
@@ -244,24 +538,6 @@ export const education = [
     grade: "Never Checked",
     desc: "I am currently pursuing a Bachelor's degree in Cyber Security at FAST Islamabad. I have completed 4 semesters. I have taken courses in Data Structures & Algorithms, Object-Oriented Programming, Programming Fundamentals, Operating Systems, and Computer Networks, among others. I  also remaied a member of CyberSpaceLegion society.",
     degree: "Bachelors of Cyber Security",
-  },
-  {
-    id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Army_Public_Schools_%26_Colleges_System.svg/800px-Army_Public_Schools_%26_Colleges_System.svg.png",
-    school: "Army Public School and College EME campus Rawalpindi",
-    date: "Apr 2019 - Apr 2021",
-    grade: "96%",
-    desc: "I completed my class 12 high school education at APSACS EME, Rawalpindi, where I studied Sciences with Chemistry, Physics and Math.",
-    degree: "FSC(XII)",
-  },
-  {
-    id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFm0M1Uwa1GRHdC5lBb60hjiGgSRq89UUP2A&s",
-    school: "Wise School and College Wah Cantt",
-    date: "Apr 2017 - Mar 2019",
-    grade: "88.6%",
-    desc: "I completed my class 10 education at WISE, Wah Cantt, where I studied Sciences with Computer Applications.",
-    degree: "Matric(X), Sciences with Computer",
   },
 ];
 
