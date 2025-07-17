@@ -7,10 +7,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I'm a motivated and adaptable person who loves tackling new challenges. I’m passionate about learning and committed to delivering top-notch results. With a positive outlook and a growth mindset, I’m ready to contribute and achieve great things.",
+    "I'm a motivated and adaptable person who loves tackling new challenges. I'm passionate about learning and committed to delivering top-notch results. With a positive outlook and a growth mindset, I'm ready to contribute and achieve great things.",
   github: "https://github.com/talatops",
   resume:
-    "https://drive.google.com/file/d/1zfWjXOUmuE3UX2rHBKmGTYcRrfafLJw6/view?usp=sharing",
+    "https://drive.google.com/file/d/1nWF5sLX3Fs3ZYcMoTqUHPKokuErJ_II9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/talat-fm/",
   twitter: "https://twitter.com/talatops",
   insta: "https://www.instagram.com/defnotalat/",
@@ -18,122 +18,6 @@ export const Bio = {
 };
 
 export const skills = [
-  {
-    title: "Languages",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Bash scripting",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bash_Logo_Black_and_White.svg/1200px-Bash_Logo_Black_and_White.svg.png",
-      },
-      {
-        name: "C++",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
-      },
-      {
-        name: "YAML",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/YAML_logo.svg/1200px-YAML_logo.svg.png",
-      },
-      {
-        name: "NodeJS",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-    ],
-  },
-  {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOztERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5VrX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Express",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
-      },
-      {
-        name: "Django",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg",
-      },
-      {
-        name: "Flask",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "PostgreSQL",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "RESTful API",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/REST_API_Logo.svg/1200px-REST_API_Logo.svg.png",
-      },
-      {
-        name: "GraphQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg",
-      },
-    ],
-  },
   {
     title: "DevOps",
     skills: [
@@ -159,8 +43,7 @@ export const skills = [
       },
       {
         name: "ArgoCD",
-        image:
-          "https://raw.githubusercontent.com/argoproj/argo-cd/master/docs/assets/argo-icon-color.png",
+        image: "https://argo-cd.readthedocs.io/en/stable/assets/logo.png"
       },
       {
         name: "Jenkins",
@@ -189,13 +72,11 @@ export const skills = [
       },
       {
         name: "CloudFormation",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_CloudFormation_logo.svg/1200px-AWS_CloudFormation_logo.svg.png",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       },
       {
         name: "Kamal-deploy",
-        image:
-          "https://raw.githubusercontent.com/basecamp/kamal/main/docs/assets/kamal-logo.png",
+        image: "https://raw.githubusercontent.com/basecamp/kamal/main/assets/kamal-logo.svg",
       },
       {
         name: "Nginx",
@@ -214,92 +95,57 @@ export const skills = [
     ],
   },
   {
-    title: "Linux",
-    skills: [
-      {
-        name: "System Administration",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png",
-      },
-      {
-        name: "Ubuntu",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logo.svg/1200px-Ubuntu_logo.svg.png",
-      },
-      {
-        name: "RedHat",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/1200px-Red_Hat_logo.svg.png",
-      },
-      {
-        name: "Amazon Linux",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
-      },
-    ],
-  },
-  {
-    title: "Windows",
-    skills: [
-      {
-        name: "System Administration",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1200px-Windows_logo_-_2012.svg.png",
-      },
-    ],
-  },
-  {
     title: "Networking",
     skills: [
       {
         name: "Network Configuration",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Network_architecture_icon.svg/1200px-Network_architecture_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/2885/2885417.png",
       },
       {
         name: "Security",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Computer_security_icon.svg/1200px-Computer_security_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/2889/2889676.png",
       },
       {
         name: "Monitoring & Troubleshooting",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Computer_network_icon.svg/1200px-Computer_network_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/1022/1022476.png",
       },
       {
         name: "Protocols",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Network_architecture_icon.svg/1200px-Network_architecture_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/2593/2593633.png",
       },
       {
         name: "IP Addressing & Subnetting",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Computer_network_icon.svg/1200px-Computer_network_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/1231/1231223.png",
       },
       {
         name: "OSI Model",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/OSI_Model_v1.svg/1200px-OSI_Model_v1.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/6133/6133388.png",
       },
       {
         name: "Switches",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Network_switch_icon.svg/1200px-Network_switch_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/2059/2059474.png",
       },
       {
         name: "Routers",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Router_icon.svg/1200px-Router_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/182/182931.png",
       },
       {
         name: "Firewalls",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Computer_security_icon.svg/1200px-Computer_security_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/2716/2716652.png",
       },
       {
         name: "Load Balancing",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Computer_network_icon.svg/1200px-Computer_network_icon.svg.png",
+          "https://cdn-icons-png.flaticon.com/512/1167/1167994.png",
       },
     ],
   },
@@ -313,8 +159,7 @@ export const skills = [
       },
       {
         name: "Digital Ocean",
-        image:
-          "https://www.digitalocean.com/_next/static/media/logo.0d8e398f.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/digitalocean/digitalocean-original.svg",
       },
       {
         name: "AWS VPC",
@@ -394,6 +239,151 @@ export const skills = [
     ],
   },
   {
+    title: "Languages",
+    skills: [
+      {
+        name: "Python",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Bash scripting",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
+      },
+      {
+        name: "C++",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+      },
+      {
+        name: "YAML",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/yaml/yaml-original.svg",
+      },
+      {
+        name: "NodeJS",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+    ],
+  },
+  {
+    title: "Frontend",
+    skills: [
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Next Js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOztERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5VrX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+      },
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Bootstrap",
+        image:
+          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Express",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+      },
+      {
+        name: "Django",
+        image: "https://cdn.worldvectorlogo.com/logos/django.svg"
+      },
+      {
+        name: "Flask",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "RESTful API",
+        image: "https://www.svgrepo.com/show/375531/api.svg"
+      },
+      {
+        name: "GraphQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg",
+      },
+    ],
+  },
+  {
+    title: "Linux",
+    skills: [
+      {
+        name: "System Administration",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png",
+      },
+      {
+        name: "Ubuntu",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg",
+      },
+      {
+        name: "RedHat",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/1200px-Red_Hat_logo.svg.png",
+      },
+      {
+        name: "Amazon Linux",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png",
+      },
+    ],
+  },
+  {
+    title: "Windows",
+    skills: [
+      {
+        name: "System Administration",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1200px-Windows_logo_-_2012.svg.png",
+      },
+    ],
+  },
+  {
     title: "Version Control",
     skills: [
       {
@@ -413,8 +403,7 @@ export const skills = [
       },
       {
         name: "Replit",
-        image:
-          "https://replit.com/public/images/replit-logo.svg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png"
       },
     ],
   },
@@ -423,8 +412,7 @@ export const skills = [
     skills: [
       {
         name: "Cursor",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png",
+        image: "https://cursor.sh/brand/cursor-16.png",
       },
       {
         name: "VS Code",
@@ -457,7 +445,7 @@ export const experiences = [
     role: "Cloud Engineer",
     company: "Antematter",
     date: "Jan 2025 - Present",
-    desc: "Led the management of all AWS accounts for the organization, implementing strategic cost savings measures that reduced the monthly AWS bill from $400 to $130, achieving a cost reduction of 67.5%. Independently designed and optimized AWS infrastructure by leveraging AWS documentation, ensuring scalable and cost-effective solutions for production workloads. Implemented elastic load balancers (ALB/NLB) and auto-scale groups to ensure high availability and dynamic resource scaling for production applications. Developed efficient monitoring solutions using AWS CloudTrail and budget constraints, ensuring robust monitoring and management of cloud resources and expenses. Implemented cyber-security tools to identify security risks in the workflow and codebase using OWASP and Acunetix. Facilitated cross-functional teams in cloud strategy sessions to improve operational processes and drive continuous improvement within the organization’s DevOps initiatives, resulting in 25% faster deployment cycles. Managed the DevOps and deployment aspects of an external project and internal deployments from scratch for an MVP and performed successful migrations to handle users at production scale. Led internal project deployment processes using kamal-deploy, streamlining deployment resulting in a 15% increase in deployment efficiency and reduction in rollback events.",
+    desc: "• Led the management of all AWS accounts for the organization, implementing strategic cost savings measures that reduced the monthly AWS bill from $400 to $130, achieving a cost reduction of 67.5%.\n\n• Independently designed and optimized AWS infrastructure by leveraging AWS documentation, ensuring scalable and cost-effective solutions for production workloads.\n\n• Implemented elastic load balancers (ALB/NLB) and auto-scale groups to ensure high availability and dynamic resource scaling for production applications.\n\n• Developed efficient monitoring solutions using AWS CloudTrail and budget constraints, ensuring robust monitoring and management of cloud resources and expenses.\n\n• Implemented cyber-security tools to identify security risks in the workflow and codebase using OWASP and Acunetix.\n\n• Facilitated cross-functional teams in cloud strategy sessions to improve operational processes and drive continuous improvement within the organization's DevOps initiatives, resulting in 25% faster deployment cycles.\n\n• Managed the DevOps and deployment aspects of an external project and internal deployments from scratch for an MVP and performed successful migrations to handle users at production scale.\n\n• Led internal project deployment processes using kamal-deploy, streamlining deployment resulting in a 15% increase in deployment efficiency and reduction in rollback events.",
     skills: [
       "AWS",
       "CloudTrail",
@@ -475,7 +463,7 @@ export const experiences = [
     role: "Associate Cloud Infrastructure Engineer",
     company: "buildonhybrid.com",
     date: "Oct 2024 - Mar 2025",
-    desc: "Led the design and implementation of a unified monitoring and logging infrastructure for the HYBRID cloud ecosystem using tools such as Prometheus, Grafana, and Loki to enhance system observability. Built and maintained custom Grafana dashboards and alerting pipelines, enabling real-time system health monitoring and proactive anomaly detection. Utilized Prometheus for collecting metrics and Node Exporter/cAdvisor for resource monitoring, improving performance diagnostics across multiple services and nodes. Integrated Loki with Promtail for centralized log aggregation, reducing mean time to recovery (MTTR) and improving root cause analysis during incidents. Implemented monitoring using Grafana, Prometheus, Node Exporter, and cAdvisor, and set up alerts with runbooks for developers to address potential issues. Added centralized logging using Loki and Grafana, managing logs from 20+ Digital Ocean droplets, and setting triggers for specific keywords to alert developers of any issues.",
+    desc: "• Led the design and implementation of a unified monitoring and logging infrastructure for the HYBRID cloud ecosystem using tools such as Prometheus, Grafana, and Loki to enhance system observability.\n\n• Built and maintained custom Grafana dashboards and alerting pipelines, enabling real-time system health monitoring and proactive anomaly detection.\n\n• Utilized Prometheus for collecting metrics and Node Exporter/cAdvisor for resource monitoring, improving performance diagnostics across multiple services and nodes.\n\n• Integrated Loki with Promtail for centralized log aggregation, reducing mean time to recovery (MTTR) and improving root cause analysis during incidents.\n\n• Implemented monitoring using Grafana, Prometheus, Node Exporter, and cAdvisor, and set up alerts with runbooks for developers to address potential issues.\n\n• Added centralized logging using Loki and Grafana, managing logs from 20+ Digital Ocean droplets, and setting triggers for specific keywords to alert developers of any issues.",
     skills: [
       "Prometheus",
       "Grafana",
@@ -493,7 +481,7 @@ export const experiences = [
     role: "DevOps Intern",
     company: "Antematter",
     date: "Oct 2024 - Dec 2024",
-    desc: "Deployed complete infrastructures from scratch on AWS, creating CI/CD pipelines using GitHub Actions to streamline development and deployment processes. Developed and maintained Helm charts for microservices-based applications, integrating multiple Kubernetes manifests within a single chart. Managed multiple deployments on EC2 instances, optimizing workflows to ensure 100% compatibility by using Docker containers, NGINX as a reverse proxy, and an Application Load Balancer for seamless traffic management.",
+    desc: "• Deployed complete infrastructures from scratch on AWS, creating CI/CD pipelines using GitHub Actions to streamline development and deployment processes.\n\n• Developed and maintained Helm charts for microservices-based applications, integrating multiple Kubernetes manifests within a single chart.\n\n• Managed multiple deployments on EC2 instances, optimizing workflows to ensure 100% compatibility by using Docker containers, NGINX as a reverse proxy, and an Application Load Balancer for seamless traffic management.",
     skills: [
       "AWS",
       "GitHub Actions",
@@ -511,7 +499,7 @@ export const experiences = [
     role: "Freelance DevOps Engineer",
     company: "Fiverr, Upwork",
     date: "May 2024 - Oct 2024",
-    desc: "Delivered CI/CD pipeline setups, Dockerized applications, and deployed scalable infrastructure on AWS, GCP, and DigitalOcean for multiple clients. Designed and optimized infrastructure on GCP and Azure for clients, including GKE clusters and Azure VM setups, enhancing cross-cloud compatibility. Configured and optimized Nginx, Gunicorn, and system monitoring tools for production-grade deployments. Automated development workflows using GitHub Actions, Bash scripting, and Terraform for small to midsize projects. Supported clients in container orchestration (Docker Compose/Kubernetes) and improved deployment reliability by 30–50%.",
+    desc: "• Delivered CI/CD pipeline setups, Dockerized applications, and deployed scalable infrastructure on AWS, GCP, and DigitalOcean for multiple clients.\n\n• Designed and optimized infrastructure on GCP and Azure for clients, including GKE clusters and Azure VM setups, enhancing cross-cloud compatibility.\n\n• Configured and optimized Nginx, Gunicorn, and system monitoring tools for production-grade deployments.\n\n• Automated development workflows using GitHub Actions, Bash scripting, and Terraform for small to midsize projects.\n\n• Supported clients in container orchestration (Docker Compose/Kubernetes) and improved deployment reliability by 30–50%.",
     skills: [
       "AWS",
       "GCP",
