@@ -445,7 +445,14 @@ export const experiences = [
     role: "Cloud Engineer",
     company: "Antematter",
     date: "Jan 2025 - Present",
-    desc: "• Led the management of all AWS accounts for the organization, implementing strategic cost savings measures that reduced the monthly AWS bill from $400 to $130, achieving a cost reduction of 67.5%.\n\n• Independently designed and optimized AWS infrastructure by leveraging AWS documentation, ensuring scalable and cost-effective solutions for production workloads.\n\n• Implemented elastic load balancers (ALB/NLB) and auto-scale groups to ensure high availability and dynamic resource scaling for production applications.\n\n• Developed efficient monitoring solutions using AWS CloudTrail and budget constraints, ensuring robust monitoring and management of cloud resources and expenses.\n\n• Implemented cyber-security tools to identify security risks in the workflow and codebase using OWASP and Acunetix.\n\n• Facilitated cross-functional teams in cloud strategy sessions to improve operational processes and drive continuous improvement within the organization's DevOps initiatives, resulting in 25% faster deployment cycles.\n\n• Managed the DevOps and deployment aspects of an external project and internal deployments from scratch for an MVP and performed successful migrations to handle users at production scale.\n\n• Led internal project deployment processes using kamal-deploy, streamlining deployment resulting in a 15% increase in deployment efficiency and reduction in rollback events.",
+    desc: "• Led the management of all AWS accounts for the organization, implementing strategic cost savings measures that reduced the monthly AWS bill from $400 to $130, achieving a cost reduction of 67.5%.\n\n\
+• Independently designed and optimized AWS infrastructure by leveraging AWS documentation, ensuring scalable and cost-effective solutions for production workloads.\n\n\
+• Implemented elastic load balancers (ALB/NLB) and auto-scale groups to ensure high availability and dynamic resource scaling for production applications.\n\n\
+• Developed efficient monitoring solutions using AWS CloudTrail and budget constraints, ensuring robust monitoring and management of cloud resources and expenses.\n\n\
+• Implemented cyber-security tools to identify security risks in the workflow and codebase using OWASP and Acunetix.\n\n\
+• Facilitated cross-functional teams in cloud strategy sessions to improve operational processes and drive continuous improvement within the organization's DevOps initiatives, resulting in 25% faster deployment cycles.\n\n\
+• Managed the DevOps and deployment aspects of an external project and internal deployments from scratch for an MVP and performed successful migrations to handle users at production scale.\n\n\
+• Led internal project deployment processes using kamal-deploy, streamlining deployment resulting in a 15% increase in deployment efficiency and reduction in rollback events.",
     skills: [
       "AWS",
       "CloudTrail",
@@ -499,7 +506,11 @@ export const experiences = [
     role: "Freelance DevOps Engineer",
     company: "Fiverr, Upwork",
     date: "May 2024 - Oct 2024",
-    desc: "• Delivered CI/CD pipeline setups, Dockerized applications, and deployed scalable infrastructure on AWS, GCP, and DigitalOcean for multiple clients.\n\n• Designed and optimized infrastructure on GCP and Azure for clients, including GKE clusters and Azure VM setups, enhancing cross-cloud compatibility.\n\n• Configured and optimized Nginx, Gunicorn, and system monitoring tools for production-grade deployments.\n\n• Automated development workflows using GitHub Actions, Bash scripting, and Terraform for small to midsize projects.\n\n• Supported clients in container orchestration (Docker Compose/Kubernetes) and improved deployment reliability by 30–50%.",
+    desc: "• Delivered CI/CD pipeline setups, Dockerized applications, and deployed scalable infrastructure on AWS, GCP, and DigitalOcean for multiple clients.\n\n\
+• Designed and optimized infrastructure on GCP and Azure for clients, including GKE clusters and Azure VM setups, enhancing cross-cloud compatibility.\n\n\
+• Configured and optimized Nginx, Gunicorn, and system monitoring tools for production-grade deployments.\n\n\
+• Automated development workflows using GitHub Actions, Bash scripting, and Terraform for small to midsize projects.\n\n\
+• Supported clients in container orchestration (Docker Compose/Kubernetes) and improved deployment reliability by 30–50%.",
     skills: [
       "AWS",
       "GCP",
