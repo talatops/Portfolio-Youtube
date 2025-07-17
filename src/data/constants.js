@@ -636,7 +636,7 @@ export const projects = [
       "HTML",
       "JWT Cookie Parser",
     ],
-    category: "Backend",
+    category: "BackEnd",
     github: "https://github.com/talatops/NodeJs-Blog.git",
     webapp: "http://localhost:5000/",
   },
