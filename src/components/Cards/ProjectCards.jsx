@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
 const Button = styled.button`
     display: none;
     width: 100%;
@@ -93,7 +92,6 @@ const Date = styled.div`
         font-size: 10px;
     }
 `
-
 
 const Description = styled.div`
     font-weight: 400;

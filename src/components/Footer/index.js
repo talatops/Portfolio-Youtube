@@ -10,9 +10,7 @@ const FooterContainer = styled.div`
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
-
 
 const FooterWrapper = styled.footer`
   width: 100%;
@@ -49,13 +47,35 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
-  transition: color 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: ${({ theme }) => theme.primary};
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -85,16 +105,33 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const handleClick = (e, id) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 80; // Height of the navbar
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <FooterContainer>
       <FooterWrapper>
         <Logo>Talat Faheem</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#about" onClick={(e) => handleClick(e, 'about')}>About</NavLink>
+          <NavLink href="#skills" onClick={(e) => handleClick(e, 'skills')}>Skills</NavLink>
+          <NavLink href="#experience" onClick={(e) => handleClick(e, 'experience')}>Experience</NavLink>
+          <NavLink href="#projects" onClick={(e) => handleClick(e, 'projects')}>Projects</NavLink>
+          <NavLink href="#education" onClick={(e) => handleClick(e, 'education')}>Education</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
@@ -105,7 +142,6 @@ function Footer() {
         <Copyright>
           &copy; 2024 Talat Faheem. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );

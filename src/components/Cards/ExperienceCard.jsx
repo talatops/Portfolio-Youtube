@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
+import { FaArrowRight, FaChartLine, FaUsers, FaClock } from 'react-icons/fa'
 
 const Document = styled.img`
     display: none;
@@ -25,12 +26,13 @@ const Description = styled.div`
 `
 
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: ${({ expanded }) => (expanded ? 'unset' : '4')};
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
 `
 
 const Card = styled.div`
@@ -59,14 +61,29 @@ const Card = styled.div`
         display: flex;
     }
 
-    &:hover ${Span}{
-        overflow: visible;
-        -webkit-line-clamp: unset;
-
-    }
-
     border: 0.1px solid #306EE8;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            45deg,
+            transparent,
+            rgba(48, 110, 232, 0.05),
+            transparent
+        );
+        transform: translateX(-100%);
+        transition: 0.6s;
+    }
+
+    &:hover::before {
+        transform: translateX(100%);
+    }
 `
 
 const Top = styled.div`
@@ -90,7 +107,6 @@ const Body = styled.div`
     display: flex;
     flex-direction: column; 
 `
-
 
 const Role = styled.div`
     font-size: 18px;
@@ -119,7 +135,6 @@ const Date = styled.div`
     }
 `
 
-
 const Skills = styled.div`
     width: 100%;
     display: flex;
@@ -142,13 +157,55 @@ const Skill = styled.div`
     }
 `
 
+const MetricsContainer = styled.div`
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+`
 
+const Metric = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.card_light + 50};
+    color: ${({ theme }) => theme.text_primary};
+    font-size: 13px;
+    font-weight: 500;
+
+    svg {
+        color: ${({ theme }) => theme.primary};
+        font-size: 16px;
+    }
+`
+
+const ExpandButton = styled.button`
+    background: none;
+    border: none;
+    color: ${({ theme }) => theme.primary};
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 0;
+    transition: all 0.2s ease;
+
+    &:hover {
+        opacity: 0.8;
+    }
+`
 
 const ExperienceCard = ({ experience }) => {
+    const [expanded, setExpanded] = useState(false);
+
     return (
         <Card>
             <Top>
-                <Image src={experience.img} />
+                <Image src={experience.img} alt={experience.company} />
                 <Body>
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>
@@ -156,29 +213,57 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
-                }
-                {experience?.skills &&
+                {experience?.desc && (
+                    <>
+                        <Span expanded={expanded}>{experience?.desc}</Span>
+                        <ExpandButton onClick={() => setExpanded(!expanded)}>
+                            {expanded ? 'Show Less' : 'Read More'} 
+                            <FaArrowRight style={{ 
+                                transform: expanded ? 'rotate(-90deg)' : 'rotate(90deg)',
+                                transition: 'all 0.2s ease'
+                            }} />
+                        </ExpandButton>
+                    </>
+                )}
+                {experience?.skills && (
                     <>
                         <br />
                         <Skills>
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={index}>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
                     </>
-                }
+                )}
             </Description>
-            {experience.doc &&
+            <MetricsContainer>
+                {experience.metrics?.impact && (
+                    <Metric>
+                        <FaChartLine />
+                        {experience.metrics.impact}
+                    </Metric>
+                )}
+                {experience.metrics?.team && (
+                    <Metric>
+                        <FaUsers />
+                        {experience.metrics.team}
+                    </Metric>
+                )}
+                {experience.metrics?.duration && (
+                    <Metric>
+                        <FaClock />
+                        {experience.metrics.duration}
+                    </Metric>
+                )}
+            </MetricsContainer>
+            {experience.doc && (
                 <a href={experience.doc} target="new">
                     <Document src={experience.doc} />
                 </a>
-            }
+            )}
         </Card>
     )
 }

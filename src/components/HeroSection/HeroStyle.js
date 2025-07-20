@@ -1,5 +1,22 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import _default from "../../themes/default";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+const float = keyframes`
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+`;
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -49,6 +66,7 @@ export const HeroInnerContainer = styled.div`
   align-items: center;
   width: 100%;
   max-width: 1100px;
+  animation: ${fadeIn} 1s ease-out;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -100,6 +118,13 @@ export const Img = styled.img`
   max-height: 400px;
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
+  animation: ${fadeIn} 1s ease-out, ${float} 3s ease-in-out infinite;
+  transition: all 0.3s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px ${({ theme }) => theme.primary};
+  }
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -166,6 +191,16 @@ export const SubTitle = styled.div`
   }
 `;
 
+export const ButtonContainer = styled.div`
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    
+    @media screen and (max-width: 960px) {
+        justify-content: center;
+    }
+`;
+
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -189,15 +224,94 @@ export const ResumeButton = styled.a`
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+        transition: all 0.4s ease-in-out;
+        box-shadow:  20px 20px 60px #1F2634;
+        filter: brightness(1.1);
     }    
-    
     
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
     } 
+`;
 
+export const DownloadButton = styled(ResumeButton)`
+    background: transparent;
+    border: 2px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary};
+    
+    &:hover {
+        background: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.white};
+    }
+`;
+
+export const SocialMediaIcons = styled.div`
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+    
+    @media screen and (max-width: 960px) {
+        justify-content: center;
+    }
+`;
+
+export const SocialMediaIcon = styled.a`
+    color: ${({ theme }) => theme.text_primary};
+    font-size: 24px;
+    transition: all 0.2s ease-in-out;
+    
+    &:hover {
+        color: ${({ theme }) => theme.primary};
+        transform: scale(1.2);
+    }
+`;
+
+export const ScrollDownContainer = styled.div`
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    animation: ${float} 2s ease-in-out infinite;
+`;
+
+export const ScrollDownIcon = styled.div`
+    width: 30px;
+    height: 30px;
+    border: 2px solid ${({ theme }) => theme.text_primary};
+    border-radius: 50%;
+    position: relative;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        width: 6px;
+        height: 6px;
+        background: ${({ theme }) => theme.text_primary};
+        border-radius: 50%;
+        transform: translateX(-50%);
+        animation: scroll 2s infinite;
+    }
+    
+    @keyframes scroll {
+        0% {
+            transform: translate(-50%, 0);
+            opacity: 0;
+        }
+        50% {
+            transform: translate(-50%, 8px);
+            opacity: 1;
+        }
+        100% {
+            transform: translate(-50%, 16px);
+            opacity: 0;
+        }
+    }
 `;

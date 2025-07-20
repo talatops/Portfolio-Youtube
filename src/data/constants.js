@@ -25,6 +25,7 @@ export const skills = [
         name: "AWS",
         image:
           "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+        proficiency: 90,
       },
       {
         name: "Azure",
