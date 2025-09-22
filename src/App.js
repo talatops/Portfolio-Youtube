@@ -8,7 +8,6 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
@@ -89,16 +88,23 @@ function App() {
         <ThemeToggle isDarkTheme={darkMode} toggleTheme={toggleTheme} />
         <BackToTop />
         <Body>
+          {/* About */}
           <HeroSection />
+
+          {/* Experience */}
           <Wrapper>
-            <Skills />
             <Experience />
           </Wrapper>
+
+          {/* Projects */}
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
+
+          {/* Skills and Education */}
           <Wrapper>
+            <Skills />
             <Education />
-            <Contact />
           </Wrapper>
+
           <Footer />
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />

@@ -33,6 +33,7 @@ const Span = styled.span`
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     transition: all 0.3s ease;
+    white-space: pre-line;
 `
 
 const Card = styled.div`

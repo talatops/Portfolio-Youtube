@@ -18,14 +18,14 @@ transition: all 0.5s ease;
 `;
 
 const Wrapper = styled.div`
-max-width: 800px;
+max-width: 640px;
 width: 100%;
 border-radius: 16px;
-margin: 50px 12px;
+margin: 40px 12px;
 height: min-content;
 background-color: ${({ theme }) => theme.card};
 color: ${({ theme }) => theme.text_primary};
-padding: 20px;
+padding: 16px;
 display: flex;
 flex-direction: column;
 position: relative;
@@ -59,6 +59,7 @@ const Desc = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
+    white-space: pre-line;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
         margin: 6px 6px;
@@ -67,9 +68,10 @@ const Desc = styled.div`
 
 const Image = styled.img`
     width: 100%;
-    object-fit: cover;
+    max-height: 320px;
+    object-fit: contain;
     border-radius: 12px;
-    margin-top: 30px;
+    margin-top: 16px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 `;
 
@@ -149,13 +151,14 @@ const MemberName = styled.div`
 
 const ButtonGroup = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 12px 0px;
     gap: 12px;
 `;
 
 const Button = styled.a`
-    width: 100%;
+    width: auto;
+    min-width: 160px;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
@@ -227,7 +230,6 @@ const index = ({ openModal, setOpenModal }) => {
                     )}
                     <ButtonGroup>
                         <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>

@@ -103,6 +103,7 @@ const Description = styled.div`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    white-space: pre-line;
 `
 
 const Members = styled.div`

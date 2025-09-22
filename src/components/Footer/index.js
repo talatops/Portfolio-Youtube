@@ -1,8 +1,6 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { FaGithub, FaMedium } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -128,16 +126,15 @@ function Footer() {
         <Logo>Talat Faheem</Logo>
         <Nav>
           <NavLink href="#about" onClick={(e) => handleClick(e, 'about')}>About</NavLink>
-          <NavLink href="#skills" onClick={(e) => handleClick(e, 'skills')}>Skills</NavLink>
           <NavLink href="#experience" onClick={(e) => handleClick(e, 'experience')}>Experience</NavLink>
           <NavLink href="#projects" onClick={(e) => handleClick(e, 'projects')}>Projects</NavLink>
+          <NavLink href="#skills" onClick={(e) => handleClick(e, 'skills')}>Skills</NavLink>
           <NavLink href="#education" onClick={(e) => handleClick(e, 'education')}>Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><FaGithub /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={'https://talatfm.medium.com/'} target="display"><FaMedium /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Talat Faheem. All rights reserved.
