@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton, ButtonContainer, ScrollDownContainer, ScrollDownIcon } from './HeroStyle'
-import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
@@ -41,7 +40,7 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-                        <Img src={HeroImg} alt="hero-image" />
+                        <Img src={'/Talat.png'} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 

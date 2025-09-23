@@ -10,7 +10,7 @@ export const Bio = {
     "Ever since I dove into my first AWS deployment, I've been hooked on the magic of turning complex code into seamless, scalable systems that just work. As a Cloud/DevOps Engineer with a cybersecurity twist, I thrive on optimizing infrastructures that not only run efficiently but also stand strong against threats—because in today's world, reliability isn't optional; it's everything.",
   github: "https://github.com/talatops",
   resume:
-    "",
+    "https://drive.google.com/file/d/1nWF5sLX3Fs3ZYcMoTqUHPKokuErJ_II9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/talat-fm/",
 };
 
@@ -167,7 +167,7 @@ export const projects = [
     description:
       "• Developed and deployed a Netflix clone, 'StreamFlix', using React for the front-end and Node.js for the back-end, hosted on AWS with Docker and Kubernetes.\n• Using Terraform for infrastructure automation, enabling scalable deployments and easy environment replication, fostering improved DevOps practices.\n• CI/CD workflows implemented with GitHub Actions, ensuring fast and reliable deployments and rollback capabilities for application updates.",
     image:
-      "data:image/png;base64,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",
+      "/StreamFlix.png",
     tags: [
       "AWS",
       "Docker",
@@ -187,9 +187,9 @@ export const projects = [
     title: "REDDIT-CLONE",
     date: "May 2024 - June 2024",
     description:
-      "• Developed a Reddit Clone web application and then deployed it on Docker as well as EKS Cluster.",
+      "• Developed a Reddit Clone web application and then deployed it on Docker as well as EKS Cluster.\n• CI/CD with Jenkins to build, scan, and deploy a Reddit Clone to AWS EKS.\n• EKS cluster provisioned via Terraform; Docker image built and pushed in pipeline.\n• Security gates: SonarQube, OWASP Dependency-Check (NVD API), Trivy FS & image scans.\n• Kubernetes deploy via kubectl (Deployment/Service/Ingress) behind AWS Load Balancer.\n• Tooling automated on Ubuntu EC2 (JDK17, Node, Docker, kubectl, Terraform, Trivy).",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlF0urwY_BW5QCKIu4lGodwg4WurSVOZyP3w&s",
+      "/REDDIT.png",
     tags: [
       "Jenkins",
       "AWS",
@@ -209,7 +209,7 @@ export const projects = [
     description:
       "• Full CRUD for blog posts with friendly EJS views.\n• JWT-based user authentication and role-based authorization.\n• Responsive UI with search and category-based filtering.\n• MongoDB Atlas-backed storage with clean Express routes and middleware.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn&DGcRE27DbPcoPyZVdKcEK5udhrsUnfpfGEh4NeA&s",
+      "/BLOG.png",
     tags: [
       "Node Js",
       "MongoDB",
@@ -228,7 +228,7 @@ export const projects = [
     description:
       "• Privacy-preserving identity verification with facial/document checks and AI fraud detection.\n• Immutable verification trail using Ethereum-compatible blockchain and Zero-Knowledge Proofs.\n• FastAPI backend with PostgreSQL; React frontend for streamlined user flows.\n• Docker Compose orchestration for backend, frontend, DB, and local blockchain (Ganache).",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg",
+      "/AI.png",
     tags: [
       "React",
       "FastAPI",
@@ -284,6 +284,28 @@ export const projects = [
     category: "DevOps",
     github: "https://github.com/talatops/ZENITH",
     webapp: "https://lovable.dev/projects/42b9b3c0-4011-437b-aba8-3193b882d7c7"
+  },
+  {
+    id: 14,
+    title: "AUTH",
+    date: "2025",
+    description:
+      "• E-commerce security demo highlighting JWT and BOLA vulnerabilities alongside secure patterns.\n• Vulnerable API: weak secrets, long-lived tokens, missing claims; no ownership checks or RBAC.\n• Secure API: strong secrets, short expiry, jti/iat/nbf claims; RBAC + strict ownership and isolation.\n• Postman collection and guided workflow for exploiting and then validating secure endpoints.",
+    image:
+      "/AUTH.png",
+    tags: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "RBAC",
+      "BOLA",
+      "Postman",
+      "Docker"
+    ],
+    category: "DevSecOps",
+    github: "https://github.com/talatops/Exploiting-Securing-JWT-BOLA",
+    webapp: ""
   },
 ];
 
