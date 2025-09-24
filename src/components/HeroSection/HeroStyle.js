@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import _default from "../../themes/default";
 
 const fadeIn = keyframes`
   from {
